@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html Test</title>
+    <script src="test.js"></script>
+</head>
+
+<body>
+
+<style>
+    table{border-collapse : collapse;}  /*이중선 제거*/
+    th,td{
+         width: 1000px;
+         height: 60px;
+         text-align: center;
+         border: 1px solid #000;
+
+         vertical-align: top;	/* 위 */
+         vertical-align: bottom;   /* 아래 */
+         vertical-align: middle;   /* 가운데 */
+       }
+</style>
+
+
+<br>
+<h1 style="text-align: center">회원가입신청서</h1>
+<br>
+<table>
+    <tr>
+        <th scope="col" style="width: 200px; font-size: 15pt">기업명</th>
+
+        <th scope="col" style="width: 600px">
+            <b><label for="text" style=""></label></b>
+            <input type="text" id="text" style="width: 300px; height: 30px; font-size: 11pt"><br>
+        </th>
+
+        <th scope="col" style="width: 200px; font-size: 15pt">사업자<br>등록번호</th>
+
+        <th scope="col" colspan="3">
+        <b><label for="text1" style=""></label></b>
+        <input type="text" id="text1" style="width: 500px; height: 30px"><br>
+        </th>
+    </tr>
+    <tr>
+        <th scope="col" style="width: 200px; font-size: 15pt">설립일</th>
+        <th scope="col" style="width: 400px">
+            <b><label for="date"></label></b>
+            <input type="date" id="date" style="font-size:11pt"><br>
+        </th>
+        <th scope="col" style="width: 200px; font-size: 15pt">대표자<br>성명</th>
+        <th scope="col" style="width: 400px"></th>
+        <th scope="col" style="width: 200px; font-size: 15pt">대표자<br>생년월일</th>
+        <th scope="col" style="width: 400px"></th>
+    </tr>
+    <tr>
+        <th scope="col" style="height: 200px; font-size: 15pt"><b>기업형태</b><br>(중복체크가능)</th>
+        <th scope="col" colspan="3">
+            <div style = "line-height = 17px">
+            <kbd>
+            <label for="사회적기업" style="font-size: 15pt; vertical-align:top">사회적기업</label>
+            <input type="checkbox" id="사회적기업" name="social" style="zoom:1.5">
+            <label for="예비 사회적기업" style="font-size: 15pt; vertical-align:top">예비 사회적기업</label>
+            <input type="checkbox" id="예비 사회적기업" name="social" style="zoom:1.5">
+            <label for="협동조합" style="font-size: 15pt; vertical-align:top">협동조합</label>
+            <input type="checkbox" id="협동조합" name="social" style="zoom:1.5"><br>
+            <label for="사회적협동조합" style="font-size: 15pt; vertical-align:top">사회적협동조합</label>
+            <input type="checkbox" id="사회적협동조합" name="social" style="zoom:1.5">
+            <label for="영농조합법인" style="font-size: 15pt; vertical-align:top">영농조합법인</label>
+            <input type="checkbox" id="영농조합법인" name="social" style="zoom:1.5">
+            <label for="자활기업" style="font-size: 15pt; vertical-align:top">자활기업</label>
+            <input type="checkbox" id="자활기업" name="social" style="zoom:1.5"><br>
+            <label for="기타" style="font-size: 15pt; vertical-align:top">기타(&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;)</label>
+            <input type="checkbox" id="기타" name="social" style="zoom:1.5"><br>
+            </kbd>
+            </div>
+        </th>
+        <th scope="col" style="width: 200px; font-size: 15pt">주요 사업</th>
+        <th scope="col" style="width: 400px"></th>
+    </tr>
+    <tr>
+        <th scope="col" style="width: 200px; font-size: 15pt">주소</th>
+        <th scope="col" colspan="5"></th>
+    </tr>
+    <tr>
+        <th scope="col" style="width: 200px; font-size: 15pt">전화번호</th>
+        <th scope="col" colspan="2"></th>
+        <th scope="col" style="width: 200px; font-size: 15pt">대표자<br>휴대전화</th>
+        <th scope="col" colspan="2"></th>
+    </tr>
+</table>
+<br><br>
+
+<p style="text-align: center; font-size: 27px"><b>서울시 은평구의회의 설립목적에 찬성하고 정부에 정한 사항을<br>준수할 것을 서약합니다.</b></p>
+<br><br>
+<div style="text-align: right; font-size: 25px">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;년
+    &emsp;&emsp;&emsp;&emsp;&emsp;월
+    &emsp;&emsp;&emsp;&emsp;&emsp;일
+</div>
+<br>
+
+<p style="text-align: right; font-size: 25px">기업명&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+<p style="text-align: right; font-size: 25px">기업명&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(서명)</p>
+<br><br><br>
+
+<h1 style="text-align: center">서울시 은평구 경제 협의회 귀중</h1>
+
+
+
+
+</body>
+<!--<script>-->
+<!--    let nameObject = document.getElementById("fName");-->
+<!--    nameObject.value= "성입니다.";-->
+<!--    let labelName = document.querySelector("body > form > label:nth-child(1)");-->
+<!--    labelName.innerText = "성을 입력하세요";-->
+<!--</script>-->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <form action=" " method="post">
+    <br>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+</form> <br><br>
+
+<form action=" " method="post">
+    <b><label for="color">좋아하는 색을 골라주세요.</label></b>
+    <input type="color" id = "color"><br>
+
+    <b><label for="date">생년월일을 기입해주세요.</label></b>
+    <input type="date" id="date"><br>
+
+    <b><label for="datetime">생년월일, 시/분를 기입해주세요.</label></b>
+    <input type="datetime-local" id="datetime"><br>
+
+    <b><label for="email">본인 명의의 이메일을 입력해주세요 :</label></b>
+    <input type="email" id="email"><br>
+
+    <b><label for="file">첨부파일 :</label></b>
+    <input type="file" id="file"><br>
+
+    <b><label for="hidden">주민등록번호 : 이 정보는 숨겨져 있습니다.</label></b>
+    <input type="hidden"id="hidden" value="주민등록번호"><br>
+
+    <b><label for="image">본인 사진을 3*4 크기에 맞춰 입력해주세요 :</label></b>
+    <input type="image" id="image"><br>
+
+    <b><label for="month">졸업 예정일을 기입해주세요 :</label></b>
+    <input type="month" id="month"><br>
+
+    <b><label for="number">본인 핸드폰 번호를 기입해주세요 :</label></b>
+    <input type="number" id="number"><br>
+
+    <b><label for="password1">2차 비밀번호를 입력해주세요 :</label></b>
+    <input type="password" id="password1"><br>
+    <b><label for="password2">2차 비밀번호를 확인 :</label></b>
+    <input type="password" id="password2"><br>
+
+    <b><label for="sex1">성별을 선택주세요 :</label></b>
+    <label for="sex1">남자</label>
+    <input type="radio" id="sex1" name="sex">
+    <label for="sex2">여자</label>
+    <input type="radio" id="sex2" name="sex"><br>
+
+    <b><label for="history">경력 :</label></b>
+    <input type="range" id="history"><br>
+
+    <b><label for="search">궁금한점을 입력해주세요 :</label></b>
+    <input type="search" id="search"><br>
+
+    <b><label for="tel">핸드폰 번호 :</label></b>
+    <input type="tel" id="tel"><br>
+
+    <b><label for="text">한글 이름 :</label></b>
+    <input type="text" id="text"><br>
+
+    <b><label for="week">면접 가능한 날짜 :</label></b>
+    <input type="week" id="week"><br>
+    <b><label for="time">면접 가능한 시간 :</label></b>
+    <input type="time" id="time"><br>
+
+    <b><label for = "subject">지원 과를 선택해주세요.</label></b>
+    <select name="subject" id="subject">
+        <option value="회계과">회계과</option>
+        <option value="개발팀">개발팀</option>
+        <option value="기획팀">기획팀</option>
+        <option value="임원">임원</option>
+    </select><br>
+
+    <b><label for="url">자기소개서 링크 :</label></b>
+    <input type="url" id="url"><br>
+    <b><label for="input">간단한 자기소개 :</label></b><br>
+    <textarea id="input" name="w3review" rows="10" cols="100"></textarea>
+    <br><br><br>
+
+    <b><label for="check">개인정보활용 동의</label></b>
+    <input type="checkbox" id="check"><br><br><br>
+
+    <input type="reset"><input type="submit"><br>
+
+
+
+
+
+    <p><dfn>submit 클릭시 입사지원 및 개인정보가 입력됩니다. 초기화를 누르면 기입한 모든 내용이 초기화 됩니다.<br>
+        당신의 앞날에 무한한 행복이 가득하길 바랍니다.</dfn></p>
+    -->
+<!--</form>-->
