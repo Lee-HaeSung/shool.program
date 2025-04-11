@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="397cb9c8-0947-4945-8e5b-498b42685a82" name="Changes" comment="">
+    <list default="true" id="c9689252-bf67-4a05-bcc9-2e48e90e2e15" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/car_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/car_test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +13,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2vX1HT7TKZSwlx0Y5C8qYffHF1b" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2vZxZJo9I5YfwlQnlhcThXiWLrX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,11 +34,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="397cb9c8-0947-4945-8e5b-498b42685a82" name="Changes" comment="" />
-      <created>1744276517333</created>
+      <changelist id="c9689252-bf67-4a05-bcc9-2e48e90e2e15" name="Changes" comment="" />
+      <created>1744366452535</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744276517333</updated>
+      <updated>1744366452535</updated>
     </task>
     <servers />
   </component>

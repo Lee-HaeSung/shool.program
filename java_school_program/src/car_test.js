@@ -151,16 +151,4 @@ class Question2 {
     exam1() {
         let index = arrExam.lastIndexOf("string");
     }
-
-
-
 }
-
-
-
-
-
-
-
-
-
