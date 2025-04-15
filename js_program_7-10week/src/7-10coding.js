@@ -47,4 +47,38 @@
 //console.log(randomPick);
 
 
+//// 게임 캐릭터 클래스 만들기
+//class Wizard {
+//    health = 0;
+//    mana = 0;
+//    armor = 0;
 //
+//    constructor(health, mana, armor){
+//        this.health = health;
+//        this.mana = mana;
+//        this.armor = armor;
+//    }
+//
+//    attack() {
+//        console.log("파이어볼");
+//    }
+//}
+//
+//let x = new Wizard(545, 210, 10);
+//console.log(x.health, x.mana, x.armor);
+//x.attack();
+
+////몇 번째 행성인가요?
+//let a = prompt("몇번 째 행성이 궁금하신가요?");
+//let b = ["수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"];
+//console.log(b[a-1]);
+
+////거꾸로 > 로꾸거
+//let r = prompt("");
+//let newString = "";
+//
+//for (let i = r.length -1; i >= 0; i--){
+//    newString += r[i];
+//}
+//
+//console.log(newString);
