@@ -82,3 +82,43 @@
 //}
 //
 //console.log(newString);
+
+////놀이기구 키 제한
+//class tallLimit{
+//    height = 0;
+//
+//    pass() {
+//        this.height = prompt("키를 입력해주세요");
+//        if (this.height > 150)
+//            console.log("YES");
+//        else
+//            console.log("NO");
+//    }
+//}
+//
+//let tall = new tallLimit();
+//tall.pass();
+
+//평균 점수 구하기
+class Average {
+    constructor() {
+        this.scores = [];
+        this.sum = 0;
+    }
+
+    scoreAver() {
+        let input = prompt("점수들을 입력해주세요 (쉼표로 구분):"); // 예: 80,90,70
+        this.scores = input.split(" ").map(Number); // 문자열 → 숫자 배열로 변환
+
+        for (let i = 0; i < this.scores.length; i++) {
+            this.sum += this.scores[i];
+        }
+
+        let average = this.sum / this.scores.length;
+        console.log("평균 점수는:", average);
+    }
+}
+
+// 인스턴스 생성 후 호출
+let avg = new Average();
+avg.scoreAver();
